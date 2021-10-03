@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { Link } from 'gatsby'
-import { header, card} from "./ArchiveCard.module.css"
+import { header, card, cover, caption, link} from "./ArchiveCard.module.css"
 
 const ArchiveCard = (props) =>{
     const month = props.month
@@ -12,10 +12,10 @@ const ArchiveCard = (props) =>{
     
     return(
         <div className ={card}>
-            <img class="archive-cover"src={image}/>
+            <img className={cover} src={image}/>
             <h1 className={header}>{month} {year}</h1>
-            <p>{description}</p>
-            <Link to={url} class="read-link">{readIssue}</Link>
+            <p className={caption}>{description}</p>
+            <Link to={url} className={link}>{readIssue}</Link>
         </div>
     )
 }
