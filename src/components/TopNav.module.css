@@ -1,0 +1,35 @@
+.container{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header{
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 5%;
+}
+
+.orange{
+  color: #F9AA4D;
+}
+
+
+.navItem{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: #584D4D;
+    text-decoration: none;
+    margin-right: 20%;
+}
+
+nav{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}

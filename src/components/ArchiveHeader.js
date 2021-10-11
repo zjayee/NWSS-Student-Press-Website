@@ -1,11 +1,13 @@
 import * as React from 'react'
+import {header, description, bar} from "./ArchiveHeader.module.css"
 
 const ArchiveHeader= () =>{
 
     return(
         <div>
-        <h1>Archive</h1>
-        <p>Older works are displayed here</p>
+        <h1 className={header}>Archive</h1>
+        <p className={description}>Older works are displayed here</p>
+        <div className={bar}/>
         </div>
     )
 
