@@ -1,23 +1,25 @@
+.container{
+    width: 65%;
+    margin-left: 25%;
+}
 
 .header{
     font-family: 'Merriweather', serif;
-    font-size: 38px;
-    font-weight: bold;
+    font-size: 40px;
+    font-weight: 700;
     color: #645E5E;
 }
 
 .description{
-    margin-top: 0dp;
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
     font-weight: 300;
     color: #6F7375;
-    margin-top: -14px;
+    margin-top: 4%;
 }
 
 .bar{
     height: 9px;
     width: 127px;
     background-color: #FFDAAF;
-    margin-top: 25px;
 }

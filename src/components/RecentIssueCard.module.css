@@ -1,0 +1,45 @@
+.container{
+    height: 181px;
+    width: 50%;
+    display: flex;
+
+}
+
+.textContainer{
+    display: flex;
+    margin-left: 5%;
+    flex-direction: column;
+}
+
+.header{
+    font-family: 'Merriweather', Georgia, serif;
+    color: #645E5E;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.caption{
+    font-family: 'Open Sans', sans-serif;
+    color: #515354;
+    font-size: 12px;
+    font-weight: 300;
+    margin-top: -5px;
+}
+
+.button{
+    font-family: 'Open Sans', sans-serif;
+    color: #4A4A4A;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    background-color: #F6CFA0;
+    padding: 10px 30px;
+    border-radius: 6px;
+    margin-top: 5px;
+}
+
+.cover{
+    height: 100%;
+    width: 48%;
+    object-fit: cover;
+}
