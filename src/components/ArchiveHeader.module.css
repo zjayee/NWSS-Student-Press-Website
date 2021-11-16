@@ -1,4 +1,11 @@
 
+.container{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 30px;
+}
+
 .header{
     font-family: 'Merriweather', serif;
     font-size: 38px;
