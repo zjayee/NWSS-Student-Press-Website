@@ -5,7 +5,7 @@ const ArchiveHeader= () =>{
 
     return(
         <div className={container}>
-        <h1 className={header}>All Articles</h1>
+        <h1 className={header}>All Issues</h1>
         <p className={description}>Find all past issues here</p>
         <div className={bar}/>
         </div>
