@@ -1,12 +1,12 @@
 import * as React from 'react'
 import CoverDecor from '../images/coverdecor.svg'
-import {header, description, bar, container, textHeader} from "./BannerHeader.module.css"
+import {header, description, bar, container, textHeader, image} from "./BannerHeader.module.css"
 
 const BannerHeader= () =>{
 
     return(
         <div className={container}>
-        <img src={CoverDecor}/>
+        <img src={CoverDecor} className={image}/>
         <div className={textHeader}>
         <h1 className={header}>View Our Latest Issues</h1>
         <div className={bar}/>
