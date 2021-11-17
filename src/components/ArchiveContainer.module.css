@@ -1,8 +1,11 @@
 .container{
-    width: 80%;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-start;
+    width: 85%;
+    display: grid;
+    justify-items: center;
+    justify-content: start;
+    align-items: center;
+    grid-template-columns: repeat( auto-fit, 240px );
     margin-left: 10%;
-    margin-right: 10%;
+    margin-right: 5%;
+    
 }

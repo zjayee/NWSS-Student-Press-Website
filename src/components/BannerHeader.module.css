@@ -1,6 +1,12 @@
 .container{
-    width: 65%;
-    margin-left: 25%;
+    width: 450px;
+    height: 40%;
+    
+}
+
+.textHeader{
+    width: 60%;
+    margin-left: 10%;
 }
 
 .header{

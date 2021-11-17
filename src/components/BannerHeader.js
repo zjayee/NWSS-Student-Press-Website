@@ -1,14 +1,17 @@
 import * as React from 'react'
-import {header, description, bar, container} from "./BannerHeader.module.css"
+import CoverDecor from '../images/coverdecor.svg'
+import {header, description, bar, container, textHeader} from "./BannerHeader.module.css"
 
 const BannerHeader= () =>{
 
     return(
         <div className={container}>
+        <img src={CoverDecor}/>
+        <div className={textHeader}>
         <h1 className={header}>View Our Latest Issues</h1>
         <div className={bar}/>
         <p className={description}>Welcome to the nwss student press website, here is a short description of the press. Also read our news and whatnot. </p>
-        
+        </div>
         </div>
     )
 
