@@ -14,12 +14,12 @@ import HeaderCover from '../components/HeaderCover'
 const IndexPage = () => {
   
   const arr = [{month: "September", year:"2021", description:"description description desctiption",
-  image:"https://pbs.twimg.com/media/ErdpsQYVkAEECtk.jpg", url:"/about"},{month: "October", year:"2021", description:"description description desctiption",
-  image:"https://pbs.twimg.com/media/ErdpsQYVkAEECtk.jpg", url:"/about"},{month: "November", year:"2021", description:"description description desctiption",
-  image:"https://pbs.twimg.com/media/ErdpsQYVkAEECtk.jpg", url:"/about"},{month: "December", year:"2021", description:"description description desctiption",
-  image:"https://pbs.twimg.com/media/ErdpsQYVkAEECtk.jpg", url:"/about"},{month: "January", year:"2022", description:"description description desctiption",
-  image:"https://pbs.twimg.com/media/ErdpsQYVkAEECtk.jpg", url:"/about"},{month: "Febuary", year:"2022", description:"description description desctiption",
-  image:"https://pbs.twimg.com/media/ErdpsQYVkAEECtk.jpg", url:"/about"}]
+  image:"https://pbs.twimg.com/media/ErdpsQYVkAEECtk.jpg", url:"/404"},{month: "October", year:"2021", description:"description description desctiption",
+  image:"https://pbs.twimg.com/media/ErdpsQYVkAEECtk.jpg", url:"/404"},{month: "November", year:"2021", description:"description description desctiption",
+  image:"https://pbs.twimg.com/media/ErdpsQYVkAEECtk.jpg", url:"/404"},{month: "December", year:"2021", description:"description description desctiption",
+  image:"https://pbs.twimg.com/media/ErdpsQYVkAEECtk.jpg", url:"/404"},{month: "January", year:"2022", description:"description description desctiption",
+  image:"https://pbs.twimg.com/media/ErdpsQYVkAEECtk.jpg", url:"/404"},{month: "Febuary", year:"2022", description:"description description desctiption",
+  image:"https://pbs.twimg.com/media/ErdpsQYVkAEECtk.jpg", url:"/404"}]
   
   return (
     <main>
