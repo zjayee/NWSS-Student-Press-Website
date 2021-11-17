@@ -22,8 +22,8 @@ const IndexPage = () => {
   image:"https://pbs.twimg.com/media/ErdpsQYVkAEECtk.jpg", url:"/about"}]
   
   return (
-    <main>
-      <title>Home Page</title>
+    <main width="100vw">
+      <title>NWSS Student Press</title>
       <TopNav/>
       <HeaderCover articles={arr}/>
       
