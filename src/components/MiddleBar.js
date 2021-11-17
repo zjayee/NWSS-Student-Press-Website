@@ -1,5 +1,5 @@
 import * as React from 'react'
-import instagram from '../images/instagram.svg'
+import instagram from '../images/Instagram.svg'
 import{link, text, container, img} from './MiddleBar.module.css'
 
 const MiddleBar = () =>{
