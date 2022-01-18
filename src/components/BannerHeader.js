@@ -1,5 +1,5 @@
 import * as React from 'react'
-import CoverDecor from '../images/coverdecor.svg'
+import CoverDecor from '../images/coverimage.png'
 import {header, description, bar, container, textHeader, image} from "./BannerHeader.module.css"
 
 const BannerHeader= () =>{

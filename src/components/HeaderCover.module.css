@@ -4,7 +4,7 @@
     justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 25px;
-    margin-bottom: 50px;
+    padding-bottom: 50px;
 }
 
 
@@ -14,11 +14,26 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    
+}
+
+@media only screen and (min-width: 1070px) {
+    .issueContainer {
+        background-color: #FAF8F4;
+        padding-left: 50px;
+        padding-bottom: 50px;
+        padding-top: 100px;
+        margin-top: -90px;
+        margin-bottom: -50px;
+        margin-right: 25px;
+
+    }
 }
 
 @media only screen and (max-width: 920px) {
     .issueContainer {
         display: none;
+
     }
 }
 

@@ -9,3 +9,10 @@
     margin-right: 5%;
     
 }
+
+.outercontainer{
+    width: 100%;
+    background-color: #FAF8F4;
+    padding-top: 2%;
+    margin-bottom: 50px;
+}
