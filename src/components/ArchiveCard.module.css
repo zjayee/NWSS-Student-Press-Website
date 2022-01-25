@@ -12,11 +12,19 @@
 
 .caption{
     margin-left: 22px;
-    margin-top: -5px;
-    font-size: 12pxS;
+    margin-top: -10px;
+    width: 172px;
+    height: 57px;
+    padding-bottom: 5px;
+    font-size: 12px;
+    max-lines: 3;
     font-family: 'Open Sans', sans-serif;
     color: var(--brown-70);
     font-weight: 200;
+    overflow-wrap: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    
 }
 
 .link{
@@ -26,7 +34,7 @@
     color: var(--beige-50);
     font-weight: 600;
     text-decoration: none;
-    vertical-align: -12px;
+    vertical-align: 2px;
 }
 
 .cover{

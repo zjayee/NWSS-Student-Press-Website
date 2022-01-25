@@ -4,8 +4,7 @@ import {header, caption, cover, container, button, textContainer} from './Recent
 
 const RecentIssueCard = (props) =>{
     
-    const month = props.month
-    const year = props.year
+    const date = props.date
     const description = props.description
     const image = props.image
     const url = props.url
@@ -14,7 +13,7 @@ const RecentIssueCard = (props) =>{
         <div className={container}>
             <img className={cover} src={image}/>
             <div className={textContainer}>
-                <h1 className={header}>{month} {year}</h1>
+                <h1 className={header}>{date}</h1>
                 <p className={caption}>{description}</p>
                 <Link to={url} className={button}>READ FULL ISSUE</Link>
             </div>

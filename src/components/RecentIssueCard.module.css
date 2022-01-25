@@ -2,12 +2,11 @@
     height: 181px;
     width: 100%;
     display: flex;
-    
 }
 
 .textContainer{
     display: flex;
-    margin-left: 5%;
+    margin-left: 3%;
     flex-direction: column;
 }
 
@@ -21,12 +20,19 @@
 .caption{
     font-family: 'Open Sans', sans-serif;
     color: #515354;
+    overflow-wrap: break-word;
+    height: 50px;
+    overflow: hidden;
+    word-break: break-word;
     font-size: 12px;
     font-weight: 300;
     margin-top: -5px;
+    padding-right: 6%;
 }
 
 .button{
+    width: 60%;
+    min-width: 40px;
     font-family: 'Open Sans', sans-serif;
     color: #4A4A4A;
     font-size: 14px;

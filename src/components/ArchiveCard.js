@@ -3,9 +3,8 @@ import { Link } from 'gatsby'
 import { header, card, cover, caption, link} from "./ArchiveCard.module.css"
 
 const ArchiveCard = (props) =>{
-    const month = props.month
-    const year = props.year
-    const description = props.description
+    const date = props.date
+    const description = props.description // max 115 char
     const image = props.image
     const url = props.url
     const readIssue = "READ FULL ISSUE >>"
@@ -13,7 +12,7 @@ const ArchiveCard = (props) =>{
     return(
         <div className ={card}>
             <img className={cover} src={image}/>
-            <h1 className={header}>{month} {year}</h1>
+            <h1 className={header}>{date}</h1>
             <p className={caption}>{description}</p>
             <Link to={url} className={link}>{readIssue}</Link>
         </div>

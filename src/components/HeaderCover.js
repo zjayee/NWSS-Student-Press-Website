@@ -6,8 +6,6 @@ import {container, issueContainer, banner} from "./HeaderCover.module.css"
 
 const HeaderCover = (props) =>{
 
-    const articles = props.articles
-
 
     return(
 

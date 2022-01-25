@@ -4,8 +4,6 @@ import {container, outercontainer} from "./ArchiveContainer.module.css"
 
 const ArchiveContainer = (props) =>{
 
-    const articles = props.articles
-
     return(
 
         <div className={outercontainer}>
