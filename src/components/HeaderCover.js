@@ -14,9 +14,11 @@ const HeaderCover = (props) =>{
         <div className={container}>
             <BannerHeader className={banner}/>
             <div className={issueContainer}>
-             {articles.slice(0, 2).map((article)=>(
+             {/* {articles.slice(0, 2).map((article)=>(
             <RecentIssueCard month={article.month} year={article.year} description={article.description} image={article.image} url={article.url}/>
-            ))}
+            ))} */}
+
+            {props.children}
             </div>
         </div>
     )

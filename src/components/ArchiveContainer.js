@@ -11,10 +11,10 @@ const ArchiveContainer = (props) =>{
         <div className={outercontainer}>
         <div className={container}>
 
-        {articles.map((article)=>(
+        {/* {articles.map((article)=>(
         <ArchiveCard month={article.month} year={article.year} description={article.description} image={article.image} url={article.url}/>
-        ))}
-
+        ))} */}
+        {props.children}
         </div>
         </div>
     )
