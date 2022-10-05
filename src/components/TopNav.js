@@ -6,7 +6,7 @@ const TopNav = () =>{
 
     return(
         <div className={container}>
-            <h1 className={header}><span className={orange}>NWSS</span> Student Press</h1>
+            <h1 className={header}><span className={orange}>NDUB</span> Student Press</h1>
             {/* <nav>
                 <Link className={navItem}>Archive</Link>
                 <Link className={navItem} to="/about">About</Link>
