@@ -1,5 +1,4 @@
 # NWSS Student Press Website
-[Website Link](https://ndubstudentpress.org/)
 
 Built with: JavaScript, CSS, Gatsby, React, GraphQl, Contentful
 
